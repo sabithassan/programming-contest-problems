@@ -1,7 +1,7 @@
 def increment(A):
     """
     Input: A: Array of ints representing decimal number
-    Output: Array representing B+1
+    Output: Array representing A+1
     """
     carried = True;
     i = len(A)-1
