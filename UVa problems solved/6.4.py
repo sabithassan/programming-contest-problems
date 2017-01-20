@@ -3,7 +3,7 @@ def CanReachEnd(maxSteps):
     Input: maxSteps: Array of integers such that
     A[i] = max # steps you can take from i
     Output: True iff you can reach the last element
-    starting from the forst element
+    starting from the first element
     """
     cost = 0
     for i in reversed(range(0, len(maxSteps))):
